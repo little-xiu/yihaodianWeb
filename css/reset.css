@@ -7,14 +7,6 @@
   url('iconfont.ttf') format('truetype'),
   url('iconfont.svg#iconfont') format('svg');
 }
-/*@font-face {
-  font-family: 'iconfont';  
-  src: url('/at.alicdn.com/t/font_392194_tj4j1akjdfyo80k9.eot');
-  src: url('/at.alicdn.com/t/font_392194_tj4j1akjdfyo80k9.eot?#iefix') format('embedded-opentype'),
-  url('/at.alicdn.com/t/font_392194_tj4j1akjdfyo80k9.woff') format('woff'),
-  url('/at.alicdn.com/t/font_392194_tj4j1akjdfyo80k9.ttf') format('truetype'),
-  url('/at.alicdn.com/t/font_392194_tj4j1akjdfyo80k9.svg#iconfont') format('svg');
-}*/
 .iconfont{ 
 font-family: 'iconfont'; 
 display: inline-block; 
@@ -52,6 +44,7 @@ textarea {
 }
 address, caption, cite, code, dfn, em, strong, th, var, i {
     font-style: normal;
+    font-weight: normal;
 }
 ol, ul {
     list-style: none;
@@ -71,6 +64,7 @@ body {
 p {
     text-overflow: ellipsis;
     overflow: hidden;
+    white-space: nowrap;
 }
 /*清除浮动的类定义在浮动子元素的父元素上*/
 .clearfix:after {

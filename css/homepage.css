@@ -71,7 +71,16 @@
     float: left;
     padding: 0 10px;
 }
+.topnav-right .please {
+    width: 82px;
+}
+.topnav-right .please .red {
+    float: left;
+    margin-right: 2px;
+}
 .topnav-right li a {
+    float: left;
+    margin-right: 2px;
     color: #666;
 }
 .topnav-right li a:hover {
@@ -85,16 +94,17 @@
     position: absolute;
     display: none;
     z-index: 3;
-    width: 84px;
+    width: 80px;
     border: 1px solid #dbdbdb;
     background: #fff;
-    margin-left: -11px;
+    margin-left: -10px;
     border-top: none;
 }
 .topnav-right .topnav-item:hover {
-    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
     background: #fff;
-    width: 64px;
+    padding: 0 9px;
 }
 .topnav-right .topnav-item:hover i {
     -webkit-transform: rotate(180deg);

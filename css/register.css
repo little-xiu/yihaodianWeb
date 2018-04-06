@@ -1,0 +1,156 @@
+.header {
+    height: 110px;
+    background: url(../imgs/headbg.jpg) repeat-x left bottom;
+}
+.w1210 {
+    width: 1210px;
+    margin: 0 auto;
+}
+.notice i, 
+.input-tip .i-error,
+.form-item .iStates {
+    background: url(../imgs/icon-sprite.png) no-repeat;
+}
+.logo-img {
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin-top: 24px;
+    background: url(../imgs/loginlogo.jpg) no-repeat;
+}
+.logo-tit {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    margin: 34px 0 0 20px;
+    color: #333;
+}
+.has-account {
+    margin-top: 55px;
+    float: right;
+    font-size: 16px;
+    color: #999;
+}
+a:link, a:visited {
+    color: #333;
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+/*表单部分*/
+.main {
+    width: 400px;
+    margin: 50px auto 0;
+}
+.form-item {
+    position: relative;
+    height: 84px;
+}
+.form-item label {
+    position: absolute;
+    z-index: 2;
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+}
+.form-item .field {
+    position: relative;
+    z-index: 1;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    width: 190px;
+    height: 18px;
+    padding: 16px 78px 16px 130px;
+    color: #333;
+}
+.form-item .notice {
+    display: none;
+    height: 32px;
+    line-height: 32px;
+    color: #ccc;
+    font-size: 12px;
+}
+.notice i {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.form-item .notice .i-tip {
+    background-position: 0 -100px;
+}
+.notice .i-error {
+    background-position: -17px -100px;
+}
+.notice .i_pwd_weak {
+    background-position: -17px -134px;
+}
+.notice .i_pwd_strong {
+    background-position: -34px -134px;
+}
+.notice .i_pwd_medium {
+    background-position: -34px -117px;
+}
+.notice .i-ok {
+    position: absolute;
+    z-index: 2;
+    left: 364px;
+    top: 17px;
+    width: 16px;
+    height: 12px;
+    background-position: 0 -117px;
+}
+.form-item input.error {
+    border:1px solid #e22;
+}
+.field::-webkit-input-placeholder {
+    color: #ccc;
+}
+.field::-moz-placeholder {
+    color: #ccc;
+}
+.field:-ms-placeholder {
+    color:#ccc;
+}
+.btn-register {
+    height: 54px;
+    width: 400px;
+    line-height: 54px;
+    color: #fff;
+    background: #e22;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

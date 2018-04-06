@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <title>仿一号店注册验证页面</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/register.css" rel="stylesheet" type="text/css" />
+    <style>
+      body {
+        color: #666;
+        background-color: #fff;
+        font: 14px/150% tahoma,arial,'Microsoft YaHei','Hiragino Sans GB',"\u5b8b\u4f53",sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo-con w1210 clearfix">
+            <a href="javascript:;" class="logo-img"></a>
+            <div class="logo-tit">
+                欢迎注册
+            </div>
+            <div class="has-account">
+                已有账号？
+                <a href="javascript:;">请登录</a>
+            </div>
+        </div>
+    </div>
+    <!-- header end -->
+    <div class="main clearfix">
+      <form id="registerform" method="post">
+        <div class="form-item">
+          <label>用&nbsp;&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;&nbsp;名</label> 
+          <input type="text" id="username" class="field" name="username" maxlength="20" placeholder="您的账户名和登录名" onfocus="this.placeholder=''" onblur="if(this.placeholder==''){this.placeholder='您的账户名和登录名'}"> 
+          <p class="notice" id="nameNotice">
+            <i class="i-tip"></i>支持中文、字母、数字、"－""_"的组合，4-20个字符
+          </p>
+        </div>
+        <div class="form-item">
+          <label>设&nbsp;&nbsp;置&nbsp;&nbsp;密&nbsp;&nbsp;码</label> 
+          <input type="password" id="password" class="field" name="password" maxlength="20" placeholder="建议至少使用两种字符组合" onfocus="this.placeholder=''" onblur="if(this.value==''){this.placeholder='建议至少使用两种字符组合'}">
+          <p class="notice" id="pwdNotice">
+            <i class="i-tip"></i>建议使用字母、数字和符号两种及以上的组合，6-20个字符
+          </p>
+        </div>
+        <div class="form-item">
+          <label>确&nbsp;&nbsp;认&nbsp;&nbsp;密&nbsp;&nbsp;码</label> 
+          <input type="password" id="password2" class="field" name="password2" maxlength="20" placeholder="请再次输入密码" onfocus="this.placeholder=''" onblur="if(this.value==''){this.placeholder='请再次输入密码'}">
+          <p class="notice" id="pwdNotice2">
+            <i class="i-tip"></i>请再次输入密码
+          </p>
+        </div>
+        <div class="form-item">
+          <label>中国&nbsp;&nbsp;0086</label> 
+          <input type="text" id="phoneN" class="field" name="phoneN" maxlength="11" placeholder="建议使用常用手机" onfocus="this.placeholder=''" onblur="if(this.value==''){this.placeholder='建议使用常用手机'}">
+          <p class="notice" id="pnNotice">
+            <i class="i-tip"></i>完成验证后，你可以用该手机登录和找回密码
+          </p>
+        </div>
+        <div>
+          <button class="btn-register" type="submit">立即注册</button>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
